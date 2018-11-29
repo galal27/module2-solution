@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.item {
+  background-color: grey;
+  border: 1px;
+  margin: 10px;
+  overflow: hidden;
+  border: 2px solid black;
+}
+
+.title {
+  text-align: center;
+  width: 25%;
+  float: right;
+  padding: 5px;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.item p {
+  margin: 5px;
+  clear: both;
+  padding: 10px
+}
+
+.chicken {
+  background-color: #FFB6C1;
+}
+
+.beef {
+  background-color: #B22222;
+  color: white;
+}
+
+.sushi {
+  background-color: #EEE8AA;
+}
+
+@media (min-width: 992px) {
+  .item {
+    width: 30%;
+    float: left;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .item {
+    width: 92.5%;
+    float: left;
+  }
+  .top {
+    width: 45%;
+  }
+}
+
+@media (max-width: 767px) {
+  .item {
+    width: 90%;
+  }
+}
